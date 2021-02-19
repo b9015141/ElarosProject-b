@@ -1,0 +1,51 @@
+/* -------Styling login form -----------*/
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 8%;
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:coral;
+    font-family: 'Space Mono', monospace;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: coral;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.login-form-form {
+  width:100%;
+  padding: 16px;
+  margin:2%;
+  border: 3px solid #f1f1f1;
+}

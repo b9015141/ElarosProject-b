@@ -1,0 +1,123 @@
+/*Navigationbar*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+/*Questionnaire*/
+
+h5{
+    font-size: 150%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 110%;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 3%;
+}
+
+p{
+    color: black;
+    font-size: 70%;
+    padding-bottom: 2%;
+}
+
+h2{
+    color: black;
+    font-size: 70%;
+    font-weight: bold;
+}
+
+label{
+    color: black;
+    font-size: 60%;
+    font-weight: bold;
+}
+
+.question{
+        width:90%; 
+        height: 50%; 
+        font-size: 25px;
+        margin:auto;
+        margin-top: 22px; 
+        margin-bottom: 22px; 
+        padding: 22px; 
+        color: #FFF; 
+        text-align: center;
+        border-radius: 25px;
+        background: coral;
+        border: 10px solid #404040;
+}
+
+.btn{
+    position: fixed;
+    bottom: 20px;
+    z-index: 99;
+    width: 50%;
+    background:coral;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: coral;
+  border: grey;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#submitBtn {
+  margin: 0;
+  position: absolute;
+  left: 45%;
+  margin-top: 40px;
+}
+
+
+
+#PNBtn {
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#prevBtn, #nextBtn {
+    display:inline-block;
+    background-color: coral;
+    width: 150px;
+    height:50px;
+    margin-top: 15vh;
+    margin-left:15px;
+    margin-right:15px;
+    cursor: pointer;
+
+}
+
+/* ---- Page Resizing ---- */
+@media screen and (max-width:768px) {
+    .question {
+        font-size: 16px;
+    }
+    
+    .question p {
+        font-size: 18px;
+    }
+}
